@@ -144,3 +144,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
+// Needed for the final "Absolutely!" button
+window.showConsequence = function () {
+  const noBtn2 = document.getElementById("noBtn2");
+  const consequenceMsg = document.getElementById("consequenceMsg");
+
+  if (noBtn2) noBtn2.style.display = "none";
+
+  if (consequenceMsg) {
+    consequenceMsg.style.display = "block";
+    consequenceMsg.style.animation = "bounceIn 0.6s ease-out";
+  }
+};
+
+
