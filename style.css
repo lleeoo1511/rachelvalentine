@@ -6,13 +6,13 @@
         }
 
         :root {
-            --pink: #FFB3D9;
-            --soft-pink: #FFE5F1;
-            --coral: #ff0040;
-            --beige: #ff00b7;
-            --soft-red: #ffffff;
-            --cream: #38b058;
-            --text: #5A4A4A;
+    --pink: #FFD6E8;        /* soft blush pink */
+    --soft-pink: #FFF0F6;   /* very light pastel pink */
+    --coral: #FF8FB1;       /* romantic rose */
+    --beige: #FFE4EC;       /* soft warm background */
+    --soft-red: #D63384;    /* elegant rose red */
+    --cream: #FFF8FB;       /* soft creamy white */
+    --text: #000000; 
         }
 
         body {
@@ -229,7 +229,7 @@
         }
 
         .btn-yes:hover {
-            box-shadow: 0 12px 30px rgba(255, 107, 157, 0.4);
+            box-shadow: 0 12px 30px rgb(205, 59, 183);
         }
 
         .btn-yes.growing {
@@ -306,7 +306,7 @@
 
         /* Love Letter Section */
         .love-letter {
-            background: white;
+            background: #d63384;
             border-radius: 20px;
             padding: 50px 40px;
             margin: 40px 0;
